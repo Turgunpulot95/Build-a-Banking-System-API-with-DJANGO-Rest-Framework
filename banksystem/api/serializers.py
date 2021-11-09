@@ -33,7 +33,6 @@ class AccountSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-
 class TransferSerializer(serializers.ModelSerializer):
     class Meta:
         model = Transfer
